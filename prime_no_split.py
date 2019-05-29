@@ -7,4 +7,4 @@ for num in range(x, y + 1):
            if (num % i) == 0:
                break
        else:
-           print(num)
+           print(num,end=" ")
