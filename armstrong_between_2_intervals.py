@@ -1,7 +1,7 @@
 x,y= input().split()
 lower=int(x)
 upper=int(y) 
-for num in range(lower,upper + 1):
+for num in range(lower,upper):
    sum = 0
    temp = num
    while temp > 0:
