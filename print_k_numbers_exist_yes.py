@@ -4,4 +4,7 @@ a=list(map(int,input().split()))[:f]
 for i in a:
   if i==s:
     x+=1
-print("yes")
+if(x!=0):
+  print("yes")
+else:
+  print("no")
